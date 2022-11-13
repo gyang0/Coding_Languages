@@ -2,15 +2,166 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>New webpage</title>
+        <title>Coding Languages</title>
     </head>
     
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@600&family=Rubik&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    
+    <!-- Specific -->
     <style>
-        // Fill in
+        #title-img {
+            opacity: 0.6;
+            width: 600px;
+            height: 300px;
+        }
+        
+        #title {
+            position: absolute;
+            top: 10px;
+            left: 140px;
+            
+            text-align: center;
+            padding-top: 50px;
+            padding-bottom: 80px;
+        }
+        
+        .nav {
+            position: fixed;
+            z-index: 1;
+            background-color: rgb(0, 0, 0);
+            width: 600px;
+            height: 45px;
+            padding-top: 10px;
+        }
+        
+        .nav ul {
+            overflow: hidden;
+        }
+        
+        .nav li {
+            display: inline;
+            text-decoration: none;
+            float: left;
+        }
+        
+        .nav li a {
+            text-decoration: none;
+            text-align: center;
+            color: white;
+            font-family: Kanit;
+            font-size: 20px;
+            
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        
+        .nav li a:hover {
+            background-color: gray;
+        }
+        
+        .pages {
+            background-color: rgb(237, 237, 237);
+        }
+    </style>
+    
+    
+    <!-- General -->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        h1 {
+            font-family: Kanit;
+            font-size: 65px;
+        }
+        
+        h2 {
+            font-family: Kanit;
+            font-size: 40px;
+        }
+        
+        p {
+            font-family: Rubik;
+            font-size: 25px;
+        }
+        
+        footer {
+            
+        }
+        
+        ::-webkit-scrollbar {
+            display: none;
+        }
+        
     </style>
     
     <body>
-
-
+        <!--
+            Splash screen - scrolling animation fade in, Java, JavaScript, C++, Python, "hundreds of langauages"
+            Navbar
+        -->
+        
+        
+        <!-- Navbar -->
+        <div class="nav">
+            <ul>
+                <li>
+                    <a href="javascript:goTo(0)">
+                        <i class="fa fa-home"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:goTo(1)">C++</a>
+                </li>
+                <li>
+                    <a href="javascript:goTo(2)">Java</a>
+                </li>
+                <li>
+                    <a href="javascript:goTo(3)">JavaScript</a>
+                </li>
+                <li>
+                    <a href="javascript:goTo(4)">Python</a>
+                </li>
+            </ul>
+        </div>
+        
+        
+        <!-- Main screen -->
+        <div class="pages">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Weihnachts_xml.png/640px-Weihnachts_xml.png" id="title-img">
+            <h1 id="title">Coding<br>Langauges</h1>
+            
+            <h2>C++</h2>
+            <h2>Java</h2>
+            <h2>JavaScript</h2>
+            <h2>Python</h2>
+            
+            <footer>This is a footer</footer>
+        </div>
+        
+        
+        
+        
     </body>
+    
+    <!-- JavaScript -->
+    <script>
+        // Page switching
+        function goTo(pageID){
+            
+        }
+        
+        // Navbar
+        
+    </script>
 </html>
