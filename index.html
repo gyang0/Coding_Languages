@@ -60,7 +60,6 @@
             font-size: 20px;
             
             padding: 20px;
-            padding-right: 20px;
         }
         
         .nav li a:hover {
@@ -71,32 +70,22 @@
             background-color: rgb(237, 237, 237);
         }
         
+        
         .goToBtn {
-            position: absolute;
-            overflow: visible;
-            top: 600px;
-            
             text-align: center;
         }
         
         .goToBtn li {
-            margin-left: 50px;
-            margin-top: 30px;
-            
             list-style-type: none;
             border: rgb(88, 125, 75) solid;
+            color: rgb(0, 0, 0);
+            
+            width: 300px;
             
             font-family: Rubik;
             font-size: 30px;
-            color: rgb(0, 0, 0);
-            text-align: center;
             
             background-color: rgb(166, 166, 166);
-            width: 400px;
-            height: 40px;
-            
-            
-            transition-duration: 0.3s;
         }
         
         .goToBtn li a {
@@ -105,9 +94,7 @@
         }
         
         .goToBtn li:hover {
-            box-shadow: 0 3px 5px 0 rgb(0, 0, 0, 0.6);
-            
-            padding-right: 100px;
+            width: 400px;
         }
         
     </style>
@@ -146,12 +133,6 @@
     </style>
     
     <body>
-        <!--
-            Splash screen - scrolling animation fade in, Java, JavaScript, C++, Python, "hundreds of langauages"
-            Navbar
-        -->
-        
-        
         <!-- Navbar -->
         <div class="nav">
             <ul>
@@ -176,6 +157,9 @@
         </div>
         
         
+        
+        
+        
         <!-- Main screen -->
         <div class="pages">
             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Weihnachts_xml.png/640px-Weihnachts_xml.png" id="title-img">
@@ -187,28 +171,22 @@
             <h2>Explore:</h2>
             
             
+            <!-- Buttons -->
             <div class="goToBtn">
                 <ul>
-                    <li>
-                        <a href="javascript:goTo(1)">C++</a>
-                    </li>
-                    <li>
-                        <a href="javascript:goTo(2)">Java</a>
-                    </li>
-                    <li>
-                        <a href="javascript:goTo(3)">JavaScript</a>
-                    </li>
-                    <li>
-                        <a href="javascript:goTo(4)">Python</a>
-                    </li>
+                    <li><a href="javascript:goTo(1)">C++</a></li>
+                    <li><a href="javascript:goTo(2)">Java</a></li>
+                    <li><a href="javascript:goTo(3)">JavaScript</a></li>
+                    <li><a href="javascript:goTo(4)">Python</a></li>
                 </ul>
             </div>
-            
-            
-            
+        
             <footer>This is a footer</footer>
         </div>
         
+        
+        
+            
         
         <div class="pages">
             <h1>C++</h1>
