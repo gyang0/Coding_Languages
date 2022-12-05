@@ -21,6 +21,8 @@
             opacity: 0.6;
             width: 600px;
             height: 300px;
+            
+            margin-left: -30px;
         }
         
         #title {
@@ -68,8 +70,8 @@
         
         .pages {
             background-color: rgb(237, 237, 237);
+            padding: 30px;
         }
-        
         
         .goToBtn {
             text-align: center;
@@ -80,21 +82,37 @@
             border: rgb(88, 125, 75) solid;
             color: rgb(0, 0, 0);
             
-            width: 300px;
             
             font-family: Rubik;
             font-size: 30px;
             
             background-color: rgb(166, 166, 166);
+            margin-top: 30px;
         }
         
         .goToBtn li a {
+            display: block;
             color: black;
             text-decoration: none;
+            
+            padding-right: 100px;
+            padding-left: 100px;
         }
         
-        .goToBtn li:hover {
-            width: 400px;
+        .goToBtn li a:hover {
+            background-color: rgb(150, 150, 150);
+            transition-duration: 0.3s;
+        }
+        
+        .sourceLinks {
+            text-decoration: none;
+            font-family: Kanit;
+            font-size: 20px;
+            color: rgb(186, 115, 0);
+        }
+        
+        .sourceLinks:hover {
+            text-decoration: underline;
         }
         
     </style>
@@ -190,6 +208,27 @@
         
         <div class="pages">
             <h1>C++</h1>
+            
+            <!-- History -->
+            <h2>History</h2>
+            <p>C++ was invented by Bjarne<br>Stroustrup and his team at<br>Bell Labs in 1979.<br><br>It was meant to be an<br>improvement over C, another popular language.<br><br>C++ is used by a multitude of programmers worldwide.<br><br><br></p>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/0/0e/Bjarne-stroustrup_%28cropped%29.jpg" style="position:absolute;width:150px;left:400px;top:75px;border: solid rgb(117, 117, 117) 5px" alt="A picture of Bjarne Stroustrup">
+            
+            <!-- Uses -->
+            <h2>Uses</h2>
+            <p>The main benefit of C++ is its speed.</p>
+            
+            <!-- Sources -->
+            <h2>Sources</h2>
+            <ul style="margin-left: 20px">
+                <li>
+                    <a href="https://en.cppreference.com/w/cpp/language/history" class="sourceLinks">https://en.cppreference.com/w/cpp/language/history</a>
+                </li>
+                <li>
+                    <a href="https://www.codecademy.com/resources/blog/what-is-c-plus-plus-used-for/" class="sourceLinks">https://www.codecademy.com/resources/blog/what-is-c-plus-plus-used-for/</a>
+                </li>
+            </ul>
+            
         </div>
         
         <div class="pages">
