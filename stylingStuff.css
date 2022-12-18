@@ -1,0 +1,128 @@
+        #title-img {
+            opacity: 0.6;
+            width: 600px;
+            height: 300px;
+            
+            margin-left: -30px;
+        }
+        
+        #title {
+            position: absolute;
+            top: 10px;
+            left: 140px;
+            
+            text-align: center;
+            padding-top: 50px;
+            padding-bottom: 80px;
+        }
+        
+        .nav {
+            position: fixed;
+            display: flex;
+            z-index: 1;
+            background-color: rgb(0, 0, 0);
+            width: 600px;
+            height: 45px;
+        }
+        
+        .nav ul {
+            overflow: hidden;
+            padding-top: 5px;
+        }
+        
+        .nav li {
+            display: inline;
+            float: left;
+        }
+        
+        .nav li a {
+            text-decoration: none;
+            text-align: center;
+            color: white;
+            font-family: Kanit;
+            font-size: 20px;
+            
+            padding: 20px;
+        }
+        
+        .nav li a:hover {
+            background-color: gray;
+        }
+        
+        .pages {
+            background-color: rgb(237, 237, 237);
+            padding: 30px;
+        }
+        
+        .goToBtn {
+            text-align: center;
+        }
+        
+        .goToBtn li {
+            list-style-type: none;
+            border: rgb(88, 125, 75) solid;
+            color: rgb(0, 0, 0);
+            
+            
+            font-family: Rubik;
+            font-size: 30px;
+            
+            background-color: rgb(166, 166, 166);
+            margin-top: 30px;
+        }
+        
+        .goToBtn li a {
+            display: block;
+            color: black;
+            text-decoration: none;
+            
+            padding-right: 100px;
+            padding-left: 100px;
+        }
+        
+        .goToBtn li a:hover {
+            background-color: rgb(150, 150, 150);
+            transition-duration: 0.3s;
+        }
+        
+        .sourceLinks {
+            text-decoration: none;
+            font-family: Kanit;
+            font-size: 20px;
+            color: rgb(186, 115, 0);
+            word-wrap: break-word;
+        }
+        
+        .sourceLinks:hover {
+            text-decoration: underline;
+        }
+        
+
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        h1 {
+            font-family: Kanit;
+            font-size: 65px;
+        }
+        
+        h2 {
+            font-family: Kanit;
+            font-size: 40px;
+        }
+        
+        p {
+            font-family: Rubik;
+            font-size: 25px;
+        }
+        
+        footer {
+            
+        }
+        
+        ::-webkit-scrollbar {
+            display: none;
+        }
