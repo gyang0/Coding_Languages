@@ -16,6 +16,26 @@
             padding-bottom: 80px;
         }
         
+        #my-footer {
+            background-color: black;
+            line-height: 50px;
+        }
+        
+        #my-footer p {
+            margin-left: 30px;
+            font-size: 18px;
+            color: white;
+            font-family: Kanit;
+        }
+        
+        #my-footer a {
+            text-decoration: underline;
+            font-family: Kanit;
+            font-size: 20px;
+            color: rgb(120, 120, 120);
+            word-wrap: break-word;
+        }
+        
         .nav {
             position: fixed;
             display: flex;
@@ -60,7 +80,7 @@
         
         .goToBtn li {
             list-style-type: none;
-            border: rgb(88, 125, 75) solid;
+            border: rgb(79, 79, 79) solid;
             color: rgb(0, 0, 0);
             
             
@@ -99,34 +119,4 @@
         
         .citations {
             margin-left: 20px;
-        }
-        
-        
-        
-        * {
-            margin: 0;
-            padding: 0;
-        }
-        
-        h1 {
-            font-family: Kanit;
-            font-size: 65px;
-        }
-        
-        h2 {
-            font-family: Kanit;
-            font-size: 40px;
-        }
-        
-        p {
-            font-family: Rubik;
-            font-size: 25px;
-        }
-        
-        footer {
-            
-        }
-        
-        ::-webkit-scrollbar {
-            display: none;
         }
